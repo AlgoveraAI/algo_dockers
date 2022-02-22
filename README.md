@@ -4,7 +4,7 @@ Docker images for use with algorithms in a Compute-to-Data flow on the Ocean Mar
 
 # 🏗 Usage
 
-All Docker images in this repo are published on DockerHub under the `Algovera` organization where each image is referred to as a Docker tag. The original Docker images by Ocean Protocol can be found in the ocean-protocol directory, and on DockerHub under the `oceanprotocol` organization.
+All Docker images in this repo are published on DockerHub under the `Algovera` [organization](https://hub.docker.com/orgs/algovera) in the [algo_dockers](https://hub.docker.com/repository/docker/algovera/algo_dockers/general) repo where each image is referred to as a Docker tag. The original Docker images by Ocean Protocol can be found in the ocean-protocol directory, and on DockerHub under the `oceanprotocol` organization.
 
 ## Pull Docker Image
 
@@ -25,7 +25,6 @@ sh scripts/build-docker.sh generative-art
 
 - Create a personal account on [Docker Hub](https://hub.docker.com/).
 - Ask core team to add you to the [Algovera organization](https://hub.docker.com/orgs/algovera) on Docker Hub.
-- The Docker images for use with algorithms in a C2D flow are in the [algo_dockers](https://hub.docker.com/repository/docker/algovera/algo_dockers/general) repo 
 - Install the Docker CLI.
 - Login with your Docker Hub username and password: 
 
