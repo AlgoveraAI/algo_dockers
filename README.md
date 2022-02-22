@@ -23,8 +23,9 @@ docker pull algovera/algo_dockers:generative-art
 sh scripts/build-docker.sh generative-art
 ```
 
-- Create a personal account on Docker Hub.
-- Ask core team to add you to the Algovera organization on Docker Hub.
+- Create a personal account on [Docker Hub](https://hub.docker.com/).
+- Ask core team to add you to the [Algovera organization](https://hub.docker.com/orgs/algovera) on Docker Hub.
+- The Docker images for use with algorithms in a C2D flow are in the [algo_dockers](https://hub.docker.com/repository/docker/algovera/algo_dockers/general) repo 
 - Install the Docker CLI.
 - Login with your Docker Hub username and password: 
 
