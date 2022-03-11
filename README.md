@@ -15,7 +15,7 @@ docker pull algovera/algo_dockers:generative-art
 ```
 
 ## Pushing Docker Image for a new algorithm
-
+**For Linus/macOS users**
 - Create a directory in this repo for your algorithm and add a Dockerfile.
 - Build the Dockerfile:
 
@@ -26,13 +26,30 @@ sh scripts/build-docker.sh generative-art
 - Create a personal account on [Docker Hub](https://hub.docker.com/).
 - Ask core team to add you to the [Algovera organization](https://hub.docker.com/orgs/algovera) on Docker Hub.
 - Install the Docker CLI.
-- Login with your Docker Hub username and password: 
+- Login with your Docker Hub username and password:
 
 ```bash
 docker login
 ```
 
 - Push your Docker Image to DockerHub
+
+```bash
+docker push algovera/algo_dockers:generative-art
+```
+
+**For Windows users**
+- Download and install the [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- Login to the Docker Desktop
+- Create a directory in this repo for your algorithm and add a Dockerfile.
+- Build the Dockerfile by executing the following line in a command-line terminal like PowerShell
+
+```bash
+docker build -t algovera/algo_dockers:${NAME} ${NAME}
+```
+*Note: `${NAME}` is the directory name. For eg `generative-art`*
+
+- Push your Docker Image to DockerHub  by executing the following line in a command-line terminal
 
 ```bash
 docker push algovera/algo_dockers:generative-art
@@ -47,7 +64,7 @@ docker push algovera/algo_dockers:generative-art
 
 Algovera is a community of individuals working to facilitate and accelerate the development of decentralised AI products and research.
 
-[Website](https://www.algovera.ai/) | [Notion](https://algovera.notion.site/) | [Discord](https://discord.gg/e65RuHSDS5) | [Calendar](https://algovera.notion.site/Calendar-9d79fab364234b47b6d24021efc28e42) | [Twitter](https://twitter.com/AlgoveraAI) | [YouTube](https://www.youtube.com/channel/UC2A5iUpP6k52ZZmC8LFj1IA) 
+[Website](https://www.algovera.ai/) | [Notion](https://algovera.notion.site/) | [Discord](https://discord.gg/e65RuHSDS5) | [Calendar](https://algovera.notion.site/Calendar-9d79fab364234b47b6d24021efc28e42) | [Twitter](https://twitter.com/AlgoveraAI) | [YouTube](https://www.youtube.com/channel/UC2A5iUpP6k52ZZmC8LFj1IA)
 
 # 🏛 Resources
 
