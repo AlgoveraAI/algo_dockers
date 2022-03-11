@@ -30,6 +30,8 @@ RUN apt-get update && apt-get install -y \
 # COPY requirements.txt /tmp/
 # RUN pip install -r /tmp/requirements.txt
 
-RUN pip3 install torch \
+RUN pip3 install pandas \
+    pyarrow \
+    torch \
     torchvision 
 
